@@ -1,0 +1,37 @@
+For UNIX systems:
+
+In order to run the BCK applications, you should add the following to your
+~/.cshrc file
+assuming that the BCK directory is located at:
+/home/users/me/BCK
+
+1. Amend the PATH entry so that it includes /home/users/me/BCK/bin
+2. Amend the CLASSPATH entry so that it includes 
+/home/users/me/BCK/classes
+and
+/home/users/me/BCK/classes/swingall.jar
+
+Secondly, you must edit the 'bck' script in the BCK/bin directory so that it reads:
+
+
+java -DBCK.home=/home/users/me/BCK/classes/BCK/GUI/ -mx100m -oss1m -ss1m -ms10m BCK.GUI.bck
+
+now type:
+
+source ~/.cshrc
+rehash
+
+and to run the application type
+
+bck
+
+
+For windows systems:
+
+Amend the CLASSPATH and PATH environment variables as described for UNIX, with the dos 'set' command or equivalent in the autoexec.bat file.
+amend the bck.bat file in the BCK/bin directory in the manner described for the
+bck script in UNIX above
+to run the Brain Construction Kit type 
+
+bck 
+
