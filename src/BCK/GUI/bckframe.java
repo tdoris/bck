@@ -1,12 +1,11 @@
 package BCK.GUI;
+import javax.swing.*;
 
 import java.io.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 
-import com.sun.java.swing.*;
-import com.sun.java.swing.event.*;
 import BCK.ANN.*;
 
 /** This is the class which implements the GUI main frame. It is complex because it handles all of the network and brain manipulation event dispatchers

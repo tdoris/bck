@@ -1,15 +1,12 @@
 
 
 package BCK.GUI;
+import javax.swing.*;
 
 import BCK.ANN.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.IOException;
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.text.*;
 
 /** This is the graphical object which represents a neuron, it contains a reference to the neuron which it represents and a graphic image object which te user sees in the BCKNetworkEditor.
  *@author Eoin Whelan

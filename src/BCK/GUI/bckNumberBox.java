@@ -8,16 +8,12 @@
 
 
 package BCK.GUI;
+import javax.swing.*;
 
 import java.awt.*;
 import java.lang.Character;
 import java.awt.event.*;
 
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.text.*;
-import com.sun.java.swing.AbstractButton;
 
 
 public class bckNumberBox extends JTextField implements KeyListener{

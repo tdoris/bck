@@ -1,5 +1,6 @@
 
 package BCK.GUI;
+import javax.swing.*;
 
 import BCK.ANN.*;
 
@@ -7,14 +8,8 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.text.*;
-import com.sun.java.swing.AbstractButton;
 
 import java.beans.*;
-import com.sun.java.swing.plaf.metal.*;
 
 /**This class implements a Dialog which can be used to speedily change the format of text data files - specifically produced here in order to change the 257th field of a data file from a scalar to a vector - the new vector will be the output vector
  *@author Tom Doris

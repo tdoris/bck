@@ -1,5 +1,7 @@
 
 package BCK.GUI;
+import javax.swing.*;
+import javax.swing.event.*;
 
 import java.io.*;
 import java.awt.*;
@@ -7,14 +9,8 @@ import java.awt.event.*;
 import java.util.*;
 import java.awt.image.*;
 
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.text.*;
-import com.sun.java.swing.AbstractButton;
 
 import java.beans.*;
-import com.sun.java.swing.plaf.metal.*;
 
 /** This is the class which is used to read in JPG files and GIF files and convert them to a format which can be used by BCK's Neural Network.
  */

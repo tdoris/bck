@@ -1,10 +1,9 @@
 
 package BCK.GUI;
+import javax.swing.*;
+import javax.swing.table.*;
+
 import BCK.ANN.*;
-import com.sun.java.swing.*;
-import com.sun.java.swing.table.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.border.*;
 
 import java.awt.*;
 import java.awt.event.*;

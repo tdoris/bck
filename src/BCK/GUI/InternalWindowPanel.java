@@ -19,9 +19,8 @@
  */
 
 package BCK.GUI;
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.accessibility.*;
+import javax.swing.*;
+import javax.accessibility.*;;
 
 import java.awt.Panel;
 import java.awt.Color;

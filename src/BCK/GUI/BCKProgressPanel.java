@@ -1,8 +1,7 @@
 package BCK.GUI;
+import javax.swing.*;
 
-import com.sun.java.swing.*;
-import com.sun.java.swing.text.*;
-import com.sun.java.accessibility.*;
+import javax.accessibility.*;;
 
 import java.awt.*;
 import java.awt.event.*;

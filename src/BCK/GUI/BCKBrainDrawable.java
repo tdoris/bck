@@ -1,15 +1,13 @@
 
 package BCK.GUI;
+import javax.swing.*;
 
 import BCK.ANN.*;
 import java.util.*;
 import java.io.*;
 import java.awt.event.*;
 import java.awt.*;
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.text.*;
+
 
 /** The Brain class is a container for Neural Networks. It also specifies exactly how the output of one neural network is used as the input to another neural network. This is the toplevel class in the system, may be implemented as a singleton. This class extends the BCKBrain class, allowing the serialization of the layout of the component networks on the GUI
  *@author Eoin Whelan 

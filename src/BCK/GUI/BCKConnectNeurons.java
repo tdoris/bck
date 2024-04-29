@@ -1,18 +1,14 @@
 
 package BCK.GUI;
+import javax.swing.*;
 
 import java.awt.*;
 import java.awt.event.*;
 import BCK.ANN.*;
 
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.text.*;
-import com.sun.java.swing.AbstractButton;
+
 
 import java.beans.*;
-import com.sun.java.swing.plaf.metal.*;
 
 
 public class BCKConnectNeurons extends BCKDialog {

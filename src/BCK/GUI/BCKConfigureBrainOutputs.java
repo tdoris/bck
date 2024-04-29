@@ -1,14 +1,12 @@
 package BCK.GUI;
+import javax.swing.*;
 
 import BCK.ANN.*;
 
 import java.awt.*;
 import java.awt.event.*;
 import java.io.IOException;
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.text.*;
+
 /**This dialog facilitates the connection of networks. Networks are connected at the neuron level. The neurons in the target network are given the same output as the specified source neurons in the source network
  */
 public class BCKConfigureBrainOutputs extends BCKDialog{

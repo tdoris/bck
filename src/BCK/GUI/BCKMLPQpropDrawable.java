@@ -7,15 +7,12 @@
 //Description:  none
 
 package BCK.GUI;
+import javax.swing.*;
 
 import BCK.ANN.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.text.*;
 
 public class BCKMLPQpropDrawable extends BCKQprop implements Drawable,MouseListener, ActionListener, Serializable{
 

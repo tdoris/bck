@@ -1,17 +1,14 @@
 
 package BCK.GUI;
+import javax.swing.*;
 
 import BCK.ANN.*;
 import java.io.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.IOException;
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.text.*;
 
-import com.sun.java.accessibility.*;
+import javax.accessibility.*;;
 
 import java.util.*;
 /** This class implements the RBFDDA training dialog box.

@@ -8,14 +8,9 @@ import java.util.zip.*;          // Data compression/decompression streams.
 import java.util.Vector;         // To store the scribble in.
 import java.util.Properties;     // To store printing preferences in.
 
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.text.*;
-import com.sun.java.swing.AbstractButton;
-import com.sun.java.accessibility.*;
+import javax.swing.*;
+
 import java.beans.*;
-import com.sun.java.swing.plaf.metal.*;
 
 /** Simple component which allows to draw points in different colors on a white background*/
 
@@ -42,9 +37,7 @@ public class BCKPlot  extends JComponent {
     public void setBlank(boolean b){
         blank = b;
     }
-    public AccessibleContext getAccessibleContext(){
-        return super.getAccessibleContext();
-    }
+
 
     /** Specifies big the component would like to be.  It always returns the
      *  preferred size passed to the BCKPlot() constructor */

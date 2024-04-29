@@ -1,15 +1,12 @@
 
 package BCK.GUI;
+import javax.swing.*;
 
 import BCK.ANN.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 import java.io.IOException;
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.text.*;
 
 /**
  *BCKClassify is a complex dialog used to test network's reactions to input data. Data can be precessed on a record by record basis, or whole files at a time

@@ -1,6 +1,7 @@
 
 
 package BCK.GUI;
+import javax.swing.*;
 
 import BCK.ANN.*;
 import java.util.*;
@@ -14,14 +15,8 @@ import java.util.zip.*;          // Data compression/decompression streams.
 import java.util.Vector;         // To store the scribble in.
 import java.util.Properties;     // To store printing preferences in.
 
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.text.*;
-import com.sun.java.swing.AbstractButton;
-import com.sun.java.accessibility.*;
+import javax.accessibility.*;;
 import java.beans.*;
-import com.sun.java.swing.plaf.metal.*;
 
 /** This is the pane which displays a graphical representation of a neural network, with neurons represented by square icons, and interconnections by color and thickness coded lines
  *@author Tom Doris

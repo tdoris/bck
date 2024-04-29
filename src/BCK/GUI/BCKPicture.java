@@ -8,14 +8,11 @@
 //             file as a string to the constructor or to the method setImage();
 
 package BCK.GUI;
+import javax.swing.*;
 
 import java.awt.event.*;
 import java.awt.*;
 import java.awt.image.*;
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.text.*;
 
 /**Description -  A JPanel that is used to display a picture. You can pass the
  *             file as a string to the constructor or to the method setImage();*/

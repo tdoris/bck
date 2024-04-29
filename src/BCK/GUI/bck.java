@@ -1,8 +1,8 @@
 
 
 package BCK.GUI;
+import javax.swing.*;
 
-import com.sun.java.swing.*;
 
 /** This is the top level class, it creates the main frame 
  */

@@ -1,4 +1,5 @@
 package BCK.GUI; 
+import javax.swing.*;
 
 import java.awt.*;               // ScrollPane, PopupMenu, MenuShortcut, etc.
 import java.awt.datatransfer.*;  // Clipboard, Transferable, DataFlavor, etc.
@@ -8,14 +9,8 @@ import java.util.zip.*;          // Data compression/decompression streams.
 import java.util.Vector;         // To store the scribble in.
 import java.util.Properties;     // To store printing preferences in.
 
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.text.*;
-import com.sun.java.swing.AbstractButton;
-import com.sun.java.accessibility.*;
+import javax.accessibility.*;;
 import java.beans.*;
-import com.sun.java.swing.plaf.metal.*;
 
 
 /**
@@ -55,9 +50,6 @@ public class Graph extends JComponent {
         setBackground(Color.white);
     }
 
-    public AccessibleContext getAccessibleContext(){
-        return super.getAccessibleContext();
-    }
 
     /** Specifies big the component would like to be.  It always returns the
      *  preferred size passed to the Graph() constructor */

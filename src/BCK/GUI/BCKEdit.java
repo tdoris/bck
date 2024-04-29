@@ -1,21 +1,16 @@
 
 
 package BCK.GUI;
-
+import javax.swing.*;
+import javax.swing.event.*;
 import BCK.ANN.*;
 import java.util.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.IOException;
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.text.*;
 
-import com.sun.java.swing.AbstractButton;
-import com.sun.java.accessibility.*;
+import javax.accessibility.*;;
 import java.beans.*;
-import com.sun.java.swing.plaf.metal.*;
 
 /** This is the internal window which displays a graphical representation of a neural network, with neurons represented by square icons, and interconnections by color and thickness coded lines
  *@author Tom Doris

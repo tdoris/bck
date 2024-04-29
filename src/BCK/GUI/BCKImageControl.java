@@ -6,13 +6,10 @@
 //Company      DCU
 
 package BCK.GUI;
+import javax.swing.*;
 
 import java.awt.event.*;
 import java.awt.*;
-import com.sun.java.swing.*;
-import com.sun.java.swing.border.*;
-import com.sun.java.swing.event.*;
-import com.sun.java.swing.text.*;
 
 /**Description  A JButton that you get display an ImageIcon on. It may 
  *    also be picked up and moved.*/
